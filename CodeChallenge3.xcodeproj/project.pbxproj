@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29B90A501A72B9C10083B322 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B90A4F1A72B9C10083B322 /* Parser.m */; };
+		29B90A531A72BAFC0083B322 /* BikeStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B90A521A72BAFC0083B322 /* BikeStation.m */; };
 		938C35E919F02E16000F4F50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 938C35E819F02E16000F4F50 /* main.m */; };
 		938C35EC19F02E16000F4F50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 938C35EB19F02E16000F4F50 /* AppDelegate.m */; };
-		938C35EF19F02E16000F4F50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 938C35EE19F02E16000F4F50 /* ViewController.m */; };
 		938C35F219F02E16000F4F50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938C35F019F02E16000F4F50 /* Main.storyboard */; };
 		938C35F419F02E16000F4F50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938C35F319F02E16000F4F50 /* Images.xcassets */; };
 		938C35F719F02E16000F4F50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 938C35F519F02E16000F4F50 /* LaunchScreen.xib */; };
 		938C360319F02E16000F4F50 /* CodeChallenge3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 938C360219F02E16000F4F50 /* CodeChallenge3Tests.m */; };
+		938C360E19F02F62000F4F50 /* StationsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 938C360D19F02F62000F4F50 /* StationsListViewController.m */; };
+		938C361119F02F6E000F4F50 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 938C361019F02F6E000F4F50 /* MapViewController.m */; };
+		938C361319F03387000F4F50 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 938C361219F03387000F4F50 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +31,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29B90A4E1A72B9C10083B322 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		29B90A4F1A72B9C10083B322 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		29B90A511A72BAFC0083B322 /* BikeStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikeStation.h; sourceTree = "<group>"; };
+		29B90A521A72BAFC0083B322 /* BikeStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BikeStation.m; sourceTree = "<group>"; };
 		938C35E319F02E16000F4F50 /* CodeChallenge3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeChallenge3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		938C35E719F02E16000F4F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		938C35E819F02E16000F4F50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		938C35EA19F02E16000F4F50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		938C35EB19F02E16000F4F50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		938C35ED19F02E16000F4F50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		938C35EE19F02E16000F4F50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		938C35F119F02E16000F4F50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		938C35F319F02E16000F4F50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		938C35F619F02E16000F4F50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		938C35FC19F02E16000F4F50 /* CodeChallenge3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeChallenge3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		938C360119F02E16000F4F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		938C360219F02E16000F4F50 /* CodeChallenge3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeChallenge3Tests.m; sourceTree = "<group>"; };
+		938C360C19F02F62000F4F50 /* StationsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StationsListViewController.h; path = ../StationsListViewController.h; sourceTree = "<group>"; };
+		938C360D19F02F62000F4F50 /* StationsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StationsListViewController.m; path = ../StationsListViewController.m; sourceTree = "<group>"; };
+		938C360F19F02F6E000F4F50 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = ../MapViewController.h; sourceTree = "<group>"; };
+		938C361019F02F6E000F4F50 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = ../MapViewController.m; sourceTree = "<group>"; };
+		938C361219F03387000F4F50 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				938C361319F03387000F4F50 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +72,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29B90A4B1A72B9920083B322 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				938C360C19F02F62000F4F50 /* StationsListViewController.h */,
+				938C360D19F02F62000F4F50 /* StationsListViewController.m */,
+				938C360F19F02F6E000F4F50 /* MapViewController.h */,
+				938C361019F02F6E000F4F50 /* MapViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		29B90A4C1A72B9A10083B322 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				29B90A4E1A72B9C10083B322 /* Parser.h */,
+				29B90A4F1A72B9C10083B322 /* Parser.m */,
+			);
+			name = Parsers;
+			sourceTree = "<group>";
+		};
+		29B90A4D1A72B9AB0083B322 /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				29B90A511A72BAFC0083B322 /* BikeStation.h */,
+				29B90A521A72BAFC0083B322 /* BikeStation.m */,
+			);
+			name = "Custom Classes";
+			sourceTree = "<group>";
+		};
 		938C35DA19F02E16000F4F50 = {
 			isa = PBXGroup;
 			children = (
+				938C361219F03387000F4F50 /* MapKit.framework */,
 				938C35E519F02E16000F4F50 /* CodeChallenge3 */,
 				938C35FF19F02E16000F4F50 /* CodeChallenge3Tests */,
 				938C35E419F02E16000F4F50 /* Products */,
@@ -81,10 +123,11 @@
 		938C35E519F02E16000F4F50 /* CodeChallenge3 */ = {
 			isa = PBXGroup;
 			children = (
-				938C35EA19F02E16000F4F50 /* AppDelegate.h */,
+				29B90A4D1A72B9AB0083B322 /* Custom Classes */,
+				29B90A4C1A72B9A10083B322 /* Parsers */,
+				29B90A4B1A72B9920083B322 /* Views */,
 				938C35EB19F02E16000F4F50 /* AppDelegate.m */,
-				938C35ED19F02E16000F4F50 /* ViewController.h */,
-				938C35EE19F02E16000F4F50 /* ViewController.m */,
+				938C35EA19F02E16000F4F50 /* AppDelegate.h */,
 				938C35F019F02E16000F4F50 /* Main.storyboard */,
 				938C35F319F02E16000F4F50 /* Images.xcassets */,
 				938C35F519F02E16000F4F50 /* LaunchScreen.xib */,
@@ -219,9 +262,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				938C35EF19F02E16000F4F50 /* ViewController.m in Sources */,
+				938C360E19F02F62000F4F50 /* StationsListViewController.m in Sources */,
 				938C35EC19F02E16000F4F50 /* AppDelegate.m in Sources */,
 				938C35E919F02E16000F4F50 /* main.m in Sources */,
+				29B90A531A72BAFC0083B322 /* BikeStation.m in Sources */,
+				938C361119F02F6E000F4F50 /* MapViewController.m in Sources */,
+				29B90A501A72B9C10083B322 /* Parser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +460,7 @@
 				938C360819F02E16000F4F50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		938C360919F02E16000F4F50 /* Build configuration list for PBXNativeTarget "CodeChallenge3Tests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +469,7 @@
 				938C360B19F02E16000F4F50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
